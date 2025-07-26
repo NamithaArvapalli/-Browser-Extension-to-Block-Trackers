@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Privacy Shield</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Privacy Shield</h1>
+    <div class="stats">
+      <div class="stat-box">
+        <span id="blockedCount">0</span>
+        <p>Trackers Blocked</p>
+      </div>
+    </div>
+    
+    <div class="controls">
+      <h3>Domain Management</h3>
+      <div class="input-group">
+        <input type="text" id="domainInput" placeholder="example.com">
+        <button id="addBlacklist">Block Domain</button>
+        <button id="addWhitelist">Allow Domain</button>
+      </div>
+      
+      <div class="lists">
+        <div class="list-section">
+          <h4>Allowed Domains</h4>
+          <ul id="whitelist"></ul>
+        </div>
+        <div class="list-section">
+          <h4>Blocked Domains</h4>
+          <ul id="blacklist"></ul>
+        </div>
+      </div>
+    </div>
+    
+    <button id="refresh">Refresh Count</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
