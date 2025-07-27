@@ -1,0 +1,118 @@
+body {
+  width: 300px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 15px 0;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #666;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  color: #444;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  padding: 2px 5px;
+  font-size: 10px;
+  border-radius: 2px;
+}
+
+.footer {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#updateTrackingList {
+  background-color: #27ae60;
+  width: 100%;
+  border-radius: 4px;
+}
